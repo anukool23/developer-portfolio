@@ -1,0 +1,19 @@
+{
+  "name": "developer-prortfolios-updated",
+  "version": "1.0.0",
+  "description": "A Node.js version of the Developer Portfolios maintenance tooling.",
+  "main": "src/alphabetical.js",
+  "scripts": {
+    "sort": "node src/alphabetical.js",
+    "generate-feed": "node src/generate-feed.js",
+    "remove-emoji": "node src/remove-emoji-in-readme.js",
+    "duplicate-report": "node src/run-dup-report.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "developer-portfolios",
+    "portfolio",
+    "node"
+  ],
+  "license": "MIT"
+}
